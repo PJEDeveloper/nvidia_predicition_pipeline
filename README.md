@@ -49,7 +49,16 @@ pipeline/meta_model/ensemble_prediction_log.csv
 
 ## Running the Pipeline
 
-### 1. Install Dependencies
+### 1.  Environment
+This project was developed and tested in:
+
+Windows 11 + WSL2 (Ubuntu 22.04)
+
+Python 3.12.11
+
+GPU-accelerated pipelines may require CUDA-compatible GPU access inside WSL.
+
+### 2. Install Dependencies
 
 * Python==3.12.11
 
@@ -57,13 +66,13 @@ pipeline/meta_model/ensemble_prediction_log.csv
 pip install -r requirements.txt
 ```
 
-### 2. Save your NewsAPI key
+### 3. Save your NewsAPI key
 
 ```
 keys/newsapi_key.txt
 ```
 
-### 3. Add Nvidia Stock CSV
+### 4. Add Nvidia Stock CSV
 
 ```
 data/nvidia_stock_data.csv
@@ -71,7 +80,7 @@ data/nvidia_stock_data.csv
 
 ***Update Nvidia Stock dataset with latest data.***
 
-### 4. Run Full Pipeline
+### 5. Run Full Pipeline
 
 ```bash
 python pipeline/orchestrator.py
