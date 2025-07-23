@@ -97,6 +97,45 @@ python pipeline/orchestrator.py
 
 ---
 
+## Dataset
+
+This project uses the **[NVIDIA STOCK MARKET HISTORY](https://www.kaggle.com/datasets/adilshamim8/nvidia-stock-market-history)** dataset by **Adil Shamim**, originally published on [Kaggle](https://www.kaggle.com/), and **extended by PJEDeveloper to include data through July 22, 2025**.
+
+**License:** CC0 Public Domain  
+**Update Frequency:** Monthly  
+**Source File:** `data/nvidia_stock_data.csv`
+
+---
+
+### Description
+
+This dataset offers a comprehensive historical overview of NVIDIA Corporation’s stock market performance, encompassing daily trading records spanning multiple years.
+
+---
+
+### Included Columns
+
+| Column   | Description                           |
+|----------|---------------------------------------|
+| `Date`   | Trading date (YYYY-MM-DD)             |
+| `Open`   | Opening price for the day             |
+| `High`   | Highest price during the session      |
+| `Low`    | Lowest price during the session       |
+| `Close`  | Closing price of the stock            |
+| `Volume` | Total number of shares traded         |
+
+---
+
+### Use Cases
+
+- Time series forecasting  
+- Financial modeling  
+- Volatility & trend analysis  
+- Educational demos in finance/data science  
+- Algorithmic trading simulations
+
+---
+
 ## Outputs
 
 * Prediction plots
