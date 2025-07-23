@@ -146,6 +146,7 @@ This dataset offers a comprehensive historical overview of NVIDIA Corporation’
 - Volatility & trend analysis  
 - Educational demos in finance/data science  
 - Algorithmic trading simulations
+- **Academic research and educational use (non-commercial)**
 
 ---
 
