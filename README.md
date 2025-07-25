@@ -6,7 +6,7 @@ This project predicts Nvidia's next-day closing price using a multi-model deep l
 
 ## Project Structure
 
-![Pipeline Architecture](nvidia_predicition_pipeline/nvidia_prediction_pipeline/nvidia_prediction_pipeline_architecture.png)
+![Pipeline Architecture](nvidia_prediction_pipeline_architecture.png)
 
 ---
 
