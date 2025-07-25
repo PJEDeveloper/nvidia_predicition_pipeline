@@ -6,7 +6,7 @@ This project predicts Nvidia's next-day closing price using a multi-model deep l
 
 ## Project Structure
 
-![Pipeline Architecture](nvidia_prediction_pipeline/nvidia_prediction_pipeline_architecture.png)
+![Pipeline Architecture](nvidia_prediction_pipeline_architecture.png)
 
 ---
 
@@ -97,6 +97,19 @@ python pipeline/orchestrator.py
 
 ---
 
+## FinBERT Citation
+
+This project uses the [**ProsusAI/finbert**](https://huggingface.co/ProsusAI/finbert) model for sentiment scoring of financial news.
+
+**License & Contact:**  
+For license information or FinBERT-related questions, please contact:  
+- Dogu Araci — `dogu.araci[at]prosus[dot]com`  
+- Zulkuf Genc — `zulkuf.genc[at]prosus[dot]com`  
+
+For more information, visit [www.prosus.com](https://www.prosus.com)
+
+---
+
 ## Dataset
 
 This project uses the **[NVIDIA STOCK MARKET HISTORY](https://www.kaggle.com/datasets/adilshamim8/nvidia-stock-market-history)** dataset by **Adil Shamim**, originally published on [Kaggle](https://www.kaggle.com/), and **extended by PJEDeveloper to include data through July 22, 2025**.
@@ -109,7 +122,7 @@ This project uses the **[NVIDIA STOCK MARKET HISTORY](https://www.kaggle.com/dat
 
 ### Description
 
-This dataset offers a comprehensive historical overview of NVIDIA Corporation’s stock market performance, encompassing daily trading records spanning multiple years.
+This dataset provides a detailed historical overview of NVIDIA Corporation’s stock market performance, capturing daily trading records across multiple years.
 
 ---
 
@@ -133,6 +146,7 @@ This dataset offers a comprehensive historical overview of NVIDIA Corporation’
 - Volatility & trend analysis  
 - Educational demos in finance/data science  
 - Algorithmic trading simulations
+- **Academic research and educational use (non-commercial)**
 
 ---
 
